@@ -56,7 +56,7 @@ The line, `counter += 1` is exactly the same as saying `counter = counter + 1`. 
 
 ### `#current_player`
 
-The `#current_player` method should take in an argument of the game board and use the `#turn_count` method to determine if it is `"X"`'s turn or `"O"`'s.
+The `#current_player` method has one argument, the game board and uses the `#turn_count` method to determine if it is `"X"`'s turn or `"O"`'s.
 
 If the turn count is an even number, the `#current_player` method should return `"X"`, otherwise, it should return `"O"`.
 
