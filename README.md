@@ -15,7 +15,7 @@ Let's break this down into the smallest possible units of work. We'll write two 
 
 Why build two separate methods? Let's talk about the Single Responsibility Principle. That principle states that methods should have *one job* and their behavior should be narrowly aligned with that job. The job of determining how many turns have been played is separate from the job of reporting whose turn it currently is, `"X"` or `"O"`, although the second job will rely on the first.
 
-But why follow this principle? Let's think about it. Can we envision a scenario in which we might want to know how many turns have been played, without caring whether it is `"X"`'s turn next or `"O"`'s? What about when we need to determine if there is a tie? What if we want to build a game that keeps track of the user's victories and let's them know how fast their average win is? Breaking down the behavior of our program into it's smallest possible constituents gives us the flexibility we need to take those building blocks and arrange them into new configurations as new goals and problems arrive.
+But why follow this principle? Let's think about it. Can we envision a scenario in which we might want to know how many turns have been played, without caring whether it is `"X"`'s turn next or `"O"`'s? What about when we need to determine if there is a tie? What if we want to build a game that keeps track of the user's victories and lets them know how fast their average win is? Breaking down the behavior of our program into it's smallest possible constituents gives us the flexibility we need to take those building blocks and arrange them into new configurations as new goals and problems arrive.
 
 ## Instructions
 
@@ -78,6 +78,6 @@ Try using the `%` operator in your `#current_player` method. Then, try refactori
 
 If you can get your `#current_player` method working using `if`/`else` statements, try refactoring it using the ternary operator. You can read the [Ruby documentation](http://ruby-doc.org/core-2.3.0//doc/syntax/control_expressions_rdoc.html#label-Ternary+if) on ternary operators to learn more, and of course, Google around as well. 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-10-current-player' title='Tic Tac Toe Current Player'>Tic Tac Toe Current Player</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/ttt-10-current-player'>Tic Tac Toe Current Player</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ttt-10-current-player'>Tic Tac Toe Current Player</a> on Learn.co and start learning to code for free.</p>
